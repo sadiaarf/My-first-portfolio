@@ -227,20 +227,38 @@ section>h3 {
     font-size: 20px;
     font-weight: 600;
 }
-.Download-cv{
+
+.Download-cv {
     text-align: center;
     margin-top: 50px;
 }
-.resume-container hr{
-    margin: 10px ;
+
+.resume-container hr {
+    margin: 10px;
 }
-footer{
+
+footer {
     display: flex;
     background: #FFF8F3;
     margin-top: 100px;
-    padding: 130px 220px;
+    padding: 130px 200px;
     gap: 100px;
 }
-.footer-column{
+.social-links{
+    margin-right: 25px;
+}
+.footer-column {
     width: 50%;
+}
+
+.contact input[type="text"], .contact input[type="email"],textarea{
+    display: block;
+    margin-bottom: 20px;
+    padding: 18px 35px;
+    color: #757575;
+    border: none;
+    border-radius: 5px;
+    background-color: #FFF;
+    width: 100%;
+    font-size: 20px;
 }
