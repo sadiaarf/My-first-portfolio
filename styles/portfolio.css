@@ -1,0 +1,47 @@
+/* nav realted portfolio */
+nav {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'loto', sans-serif;
+}
+
+.nav-title {
+    color: #181818;
+    font-size: 30px;
+    font-weight: 800
+}
+
+.button-primary {
+    border-radius: 5px;
+    background: #FD6E0A;
+    color: white;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;
+}
+
+.text-primary {
+    color: #FD6E0A;
+}
+
+nav>ul {
+    display: flex;
+    text-align: center;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 50px;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: #181818;
+}
